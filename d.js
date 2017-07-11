@@ -1,5 +1,4 @@
-const aaa = require('./c');
+const { add, log } = require('./c');
 
-// console.log(aaa);
-aaa.log(129787384);
-console.log(aaa.add(4, 5));
+log(129787384);
+console.log(add(4, 5));
